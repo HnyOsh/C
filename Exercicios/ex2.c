@@ -1,9 +1,4 @@
-/*Fazer um programa que receba o salário de um funcionário
-e o percentual de aumento, calcule e mostre o valor do
-aumento e o novo salário*/
-
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(int argc, char *argv[]) {
 
@@ -20,7 +15,7 @@ scanf("%f", &per);
 aumento = salario * (per / 100);
 printf("Valor do aumento: %.2f\n", aumento);
 
-novosalario = salario + per;
+novosalario = salario + aumento;
 printf("Novo salario: %.2f\n", novosalario);
 
 }
